@@ -1,0 +1,110 @@
+/*
+Theme Name: SUNPLAZA FITNESS
+Author: Yoshiki Kojima
+Version: 1.0
+*/
+
+@import "ress";
+
+main {
+  margin: 0 0 100px;
+}
+
+.home {
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 80px 0 40px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 80px 0 40px;
+  }
+}
+
+.top-bg {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: calc(100% / 3 - 10px);
+  }
+}
+
+.news-list {
+  display: flex;
+  justify-content: space-between;
+  section {
+    width: calc(100% / 4 - 10px);
+  }
+  h3 {
+    font-size: 16px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .category {
+    font-size: 12px;
+    color: #fff;
+    background: #111111;
+    display: inline-block;
+    padding: 4px;
+  }
+  .date {
+    font-size: 12px;
+  }
+}
+
+.news-list-info {
+  margin: 15px auto 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+}
+
+.shop-info {
+  margin-top: 80px;
+  display: flex;
+  h2 {
+    margin: 0;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+}
+
+.shop-info-left {
+  width: 392px;
+}
+
+.shop-info-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-info-hours,
+.shop-info-parking {
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.shop-info-access {
+  width: 100%;
+}
+
+.shop-info-map {
+  float: right;
+}
